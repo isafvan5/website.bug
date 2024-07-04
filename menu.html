@@ -1,0 +1,102 @@
+<!-- templates/menu.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Burger Shop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Our Menu</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Menu Items</h2>
+            <ul>
+                <li>Cheeseburger - $5.99</li>
+                <li>Veggie Burger - $4.99</li>
+                <!-- Add more menu items -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Burger Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- templates/cart.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Burger Shop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Items in Your Cart</h2>
+            <ul>
+                <li>Cheeseburger - $5.99</li>
+                <!-- Display items in cart dynamically -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Burger Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+<!-- templates/order_confirmation.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation - Burger Shop</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Order Confirmation</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/menu">Menu</a></li>
+                <li><a href="/cart">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Thank You for Your Order!</h2>
+            <p>Your order has been confirmed.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Burger Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
