@@ -1,0 +1,7 @@
+website.bug/
+├── app.py
+└── templates/
+    ├── index.html
+    ├── menu.html
+    ├── cart.html
+    └── order_confirmation.html
